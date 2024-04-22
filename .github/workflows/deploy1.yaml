@@ -22,6 +22,7 @@ jobs:
     - name: Test code
       run: nom run test
     - name: Build 
+      run: npm run build
   deploy:
     runs-on: ubuntu-latest
     steps:
